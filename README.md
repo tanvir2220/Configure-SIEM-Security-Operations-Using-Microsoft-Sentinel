@@ -32,7 +32,7 @@ Task 1 - Create A Log Analytics Workspace
 
 <p align="center">
 
-<img src="https://i.ibb.co/jkKLjYn/9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.ibb.co/jkKLjYn/9.png" height="80%" width="80%" alt="Configure SIEM Security Operations Using Microsoft Sentinel"/>
 <br />
 <br />
 
@@ -96,6 +96,12 @@ Task 2 - Set Up The Data Connector For Azure Activity
 9.	Select the Review + Create button to review the configuration.
 10.	Select Create to finish.
 
+<p align="center">
+
+<img src="https://i.ibb.co/pj2GKmF/21.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
 Task 3 - Set Up The Defender For Cloud Data Connector
 1.	In Microsoft Sentinel, go to the Content management menu section and select Content Hub.
 2.	In the Content hub, filter Status for Installed solutions.
@@ -103,6 +109,12 @@ Task 3 - Set Up The Defender For Cloud Data Connector
 4.	Select the Subscription-based Microsoft Defender for Cloud (Legacy) Data connector and select Open connector page
 5.	In the Configuration area under the Instructions tab, scroll down to your subscription and move the slider in the Status column to Connected.
 6.	Make sure Bi-directional sync is Enabled.
+
+<p align="center">
+
+<img src="https://i.ibb.co/pxnTzVQ/22.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 Task 4 - Create An Analytics Rule
 1.	In Microsoft Sentinel, go to the Configuration menu section and select Analytics.
@@ -139,6 +151,12 @@ Task 1 - Configure Data Collection Rules (DCRs) In Microsoft Sentinel
 8.	On the Collect tab leave the default of All Security Events
 9.	Select Next: Review + create >, then select Create
 
+<p align="center">
+
+<img src="https://i.ibb.co/2FwCmjD/26.png" height="80%" width="80%" alt="Configure SIEM Security Operations Using Microsoft Sentinel"/>
+<br />
+<br />
+
 Task 2 - Create A Near Real-Time (NRT) Query Detection
 1.	In Microsoft Sentinel, go to the Configuration menu section and select Analytics
 2.	Select + Create, and NRT query rule (Preview)
@@ -149,12 +167,24 @@ Task 2 - Create A Near Real-Time (NRT) Query Detection
 7.	Select Next: Review + Create
 8.	When validation is complete select Save
 
+<p align="center">
+
+<img src="https://i.ibb.co/N2KxwpR/27.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
 Task 3 - Configure Automation In Microsoft Sentinel
 1.	In Microsoft Sentinel, go to the Configuration menu section and select Automation
 2.	Select + Create, and Automation rule
 3.	Enter an Automation rule name, and select Assign owner from Actions
 4.	Assign Operator1 as the owner.
 5.	Select Apply
+
+<p align="center">
+
+<img src="https://i.ibb.co/1nZMPHm/29.png" height="80%" width="80%" alt="Configure SIEM Security Operations Using Microsoft Sentinel"/>
+<br />
+<br />
 
 <h2>Phase 4: Simulated Attack to Validate Analytic and Automation Rules</h2>
 
